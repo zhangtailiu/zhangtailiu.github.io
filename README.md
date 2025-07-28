@@ -2,32 +2,32 @@
 
 This is a Hexo blog using the Tranquility theme. It is automatically deployed to GitHub Pages using GitHub Actions.
 
-## How to Use
+## 如何使用
 
-### Create a New Post
+### 新增博客文章
 
-To create a new post, run the following command:
+要创建一篇新的博客文章，请运行以下命令：
 
 ```bash
-hexo new "My New Post"
+hexo new "你的文章标题"
 ```
 
-This will create a new Markdown file in the `source/_posts` directory. You can then edit this file to write your blog post.
+这将在 `source/_posts` 目录下创建一个新的 Markdown 文件。你可以编辑此文件来撰写你的博客文章。
 
-### Run the Development Server
+### 运行本地开发服务器
 
-To preview your blog locally, run the following command:
+要在本地预览你的博客，请运行以下命令：
 
 ```bash
 hexo server
 ```
 
-This will start a local server at `http://localhost:4000`.
+这将在 `http://localhost:4000` 启动一个本地服务器。
 
-### Deploy the Blog
+### 部署博客
 
-The blog is automatically deployed to GitHub Pages whenever you push to the `main` branch. The deployment process is handled by the GitHub Actions workflow defined in `.github/workflows/deploy.yml`.
+博客会自动部署到 GitHub Pages。每次你向 `main` 分支推送代码时，博客都会自动更新。部署过程由 `yarn deploy` 命令处理，该命令会将生成的静态文件推送到 `main` 分支。
 
-## Theme
+## 主题
 
-This blog uses the [Tranquility](https://github.com/hooozen/hexo-theme-tranquility) theme.
+本博客使用 [Tranquility](https://github.com/hooozen/hexo-theme-tranquility) 主题。
