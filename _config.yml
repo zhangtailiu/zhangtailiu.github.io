@@ -95,4 +95,4 @@ theme: tranquility
 deploy:
   type: git
   repo: https://github.com/zhangtailiu/zhangtailiu.github.io.git
-  branch: gh-pages
+  branch: main
