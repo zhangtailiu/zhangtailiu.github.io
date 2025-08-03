@@ -130,7 +130,7 @@ timeline:
     - name: article
       color: "#ee936c"
       icon: /images/icon/icon-article.svg
-      checked: false
+      checked: true
     - name: app
       color: "#60a465"
       icon: /images/icon/icon-app.svg
